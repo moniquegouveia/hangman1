@@ -35,8 +35,7 @@ if userLetter in wordLetters:
 else:
     lives -= 1
     print("\nAhh, you lost a life. Try again!")
-elif:
-    userLetter in usedLetters
+elif userLetter in usedLetters:
     print("\nYou have already guessed that letter! Guess a different one.")
 else:
     print("\nThat is not a letter! Guess a different one.")
@@ -47,4 +46,3 @@ if lives == 0:  # marks the end of the game
 
 if __name__ == "__main__":
     hangmanGame()
-    
