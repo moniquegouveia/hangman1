@@ -22,7 +22,7 @@ def hangmanGame():
     usedLetters = set()  # creates a set of the letters already used
 
     lives = 7
-    
+
 while len(wordLetters) > 0 and lives > 0:
     print("\n")  # prints a new line
     print("Lives Remaining: " + str(lives))
@@ -31,12 +31,12 @@ if userLetter in alphabet - usedLetters:
     usedLetters.add(userLetter)  # adds the letter to the used letters set
 if userLetter in wordLetters:
     wordLetters.remove(userLetter)
-print("\nNice Guess!")
+    print("\nNice Guess!")
 else:
     lives -= 1  # subtracts a life for incorrect guess
     print("\nAhh, you lost a life. Try again!")
 elif:
-userLetter in usedLetters:
+    userLetter in usedLetters
     print("\nYou have already guessed that letter! Guess a different one.")
 else:
     print("\nThat is not a letter! Guess a different one.")
@@ -47,3 +47,4 @@ if lives == 0:  # marks the end of the game
 
 if __name__ == "__main__":
     hangmanGame()
+    
