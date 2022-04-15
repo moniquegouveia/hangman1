@@ -35,7 +35,7 @@ if userLetter in wordLetters:
     else:
 lives -= 1  # subtracts a life for incorrect guess
     print("\nAhh, you lost a life. Try again!")
-elif:
+    elif:
     userLetter in usedLetters
     print("\nYou have already guessed that letter! Guess a different one.")
 else:
