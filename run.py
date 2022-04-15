@@ -20,7 +20,6 @@ def hangmanGame():
     ''' creates a set of the
     letters in the alphabet'''
     usedLetters = set()  # creates a set of the letters already used
-
     lives = 7
 
 while len(wordLetters) > 0 and lives > 0:
