@@ -22,10 +22,7 @@ def hangmanGame():
     usedLetters = set()  # creates a set of the letters already used
 
     lives = 7
-''' sets the number of lives to 7
-(includes the head, the body, the left arm,
-  the right arm, the left leg, and the right leg) '''
-
+    
 while len(wordLetters) > 0 and lives > 0:
     print("\n")  # prints a new line
     print("Lives Remaining: " + str(lives))
