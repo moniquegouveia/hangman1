@@ -24,7 +24,7 @@ def hangmanGame():
         print("\n")  # prints a new line
         print("Lives Remaining: " + str(lives))
         userLetter = input("\nGuess a letter: ").upper()
-        if userLetter in alphabet - usedLetters:
+        if userLetter in usedLetters:
             usedLetters.add(userLetter)  # adds the letter to the used letters set
         if userLetter in usedLetters:
             print("\nYou have already guessed that letter! Guess a different one.") 
