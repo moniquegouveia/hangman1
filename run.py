@@ -32,7 +32,7 @@ if userLetter in alphabet - usedLetters:
 if userLetter in wordLetters:
     wordLetters.remove(userLetter)
     print("\nNice Guess!")
-    else:
+else:
 lives -= 1  # subtracts a life for incorrect guess
     print("\nAhh, you lost a life. Try again!")
 elif:
