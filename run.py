@@ -4,7 +4,7 @@ needed to choose a random word from wordList.py '''
 from wordList import words
 import string  # imports the string module
 
-print(wordList)
+print(words)
 
 
 def getWord(words):
